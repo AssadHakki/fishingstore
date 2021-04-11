@@ -1,10 +1,17 @@
-// import logo from './logo.svg';
-// import './App.css';
+
+import React from 'react';
+import Header from './components/Header';
+import Homepage from './pages/Homepage';
+import './default.scss';
+
 
 function App() {
   return (
     <div className="App">
-     <h3>Hello world</h3>
+        <Header/>
+      <div className="main">
+        <Homepage/>
+      </div>
     </div>
   );
 }
