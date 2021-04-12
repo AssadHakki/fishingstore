@@ -15,6 +15,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             
+            
             &::after{
                 content: '';
                 position: absolute;
@@ -25,24 +26,83 @@
                 z-index: 1;
             }
             
-           
+            h1{
+                color: whitesmoke;
+                font-size: 55px;
+                text-shadow: 2px 2px #5c4eb2;
+            }
+
+            h3{
+                color: whitesmoke;
+                text-shadow: 2px 2px #5c4eb2;
+
+            }
+
             a{
-                position:absolute;
-                top: 85%; left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -moz-transform: translate(-50%, -50%);
-                transform:  translate(-50%, -50%);
-                z-index: 2;
                 font-size: 2rem;
                 text-align: center;
                 line-height: 1;
                 font-weight: 400;
                 text-transform: uppercase;
-                background: whitesmoke;
+                background: rgb(245, 245, 245);
                 padding: 4px 15px;
+                margin-top: 70px;
                 border: 1px solid black;
+                text-shadow: 1px 1px #5c4eb2;
 
             }
+            
+            .centre{
+                position:relative;
+                top: 50%; left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                transform:  translate(-50%, -50%);
+                text-align: center;
+                z-index: 2;
+
+                h1{
+                    color: white;
+                }
+    
+                h3{
+                    color: white;
+    
+                }
+    
+                a{
+                    
+                    font-size: 2rem;
+                    text-align: center;
+                    line-height: 5;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    background: whitesmoke;
+                    padding: 4px 15px;
+                    margin-top: 70px;
+                    border: 1px solid black;
+                }
+            }
+            
+           
+            // a{
+            //     position:absolute;
+            //     top: 85%; left: 50%;
+            //     -webkit-transform: translate(-50%, -50%);
+            //     -moz-transform: translate(-50%, -50%);
+            //     transform:  translate(-50%, -50%);
+            //     z-index: 2;
+            //     font-size: 2rem;
+            //     text-align: center;
+            //     line-height: 1;
+            //     font-weight: 400;
+            //     text-transform: uppercase;
+            //     background: whitesmoke;
+            //     padding: 4px 15px;
+            //     border: 1px solid black;
+
+            // }
+            
 
                
             
