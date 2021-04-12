@@ -7,12 +7,7 @@ const Directory = props => {
             <div className="wrap">
                 <div className="item"              
                     style={{ backgroundImage: `url(${Shopping})`}}  >      
-                    <div className="centre">
-                        <h1>Welcome to Fish'ON</h1>
-                        <h3>For All Your Fishing Gear, Supplies And Equipments</h3>
-                       
                       <a>Join the store</a>    
-                    </div>                  
                 </div>  
             </div>
         </div>
