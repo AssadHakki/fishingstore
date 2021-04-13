@@ -5,7 +5,7 @@ const Footer = props => {
     return (
         <footer className="footer">
             <div className="wrap">
-                 Made with love by ASSAD HAKKI © Fish'ON  2021
+                Copyright © Fish'ON 2021
             </div>
         </footer>
 

@@ -38,7 +38,17 @@
             }
 
             li{
+                display: inline;
+                margin-right: 1.5rem;
                 list-style-type: none;
+                cursor: pointer;              //added for logout
+                text-transform: uppercase;    //added for logout
+
+
+
+                &:last-child{
+                    margin-right: 0;
+                }
 
                 a{
                     font-size: 1.8rem;
@@ -46,6 +56,7 @@
                     color: black;
                     text-decoration: none;
                     text-transform: uppercase;
+                    
                 }
 
             }
