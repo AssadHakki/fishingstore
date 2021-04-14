@@ -30,7 +30,7 @@ class App extends Component {
 
   authListener = null;
   
-  // it a listener that will allow us to determine when a user has Signed in
+  // its a listener that will allow us to determine when a user has Signed in
   componentDidMount() {
     this.authListener = auth.onAuthStateChanged(async userAuth => {
       if (userAuth) {
@@ -67,7 +67,7 @@ class App extends Component {
                 <Homepage/>
               </HomepageLayout>
             )} />
-            <Route path = "/registration" render={() => (
+            <Route path = "/registration" render={() => currentUser ? <Redirect to="/" /> : (
               <MainLayout currentUser={currentUser}>
                 <Registration/>
               </MainLayout>
